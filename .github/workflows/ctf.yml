@@ -2,8 +2,8 @@ name: CTFTime
 
 on:
   schedule:
-    - cron:  '2 2 */2 * *'
-      ## run every 2nd day at 2:02
+    - cron:  '0 0 * * *'
+      ## run every day
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
